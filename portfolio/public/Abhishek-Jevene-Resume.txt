@@ -1,0 +1,16 @@
+ABHISHEK JEVENE
+Frontend Developer
+
+SUMMARY
+Frontend developer focused on building modern, responsive, and polished web interfaces.
+
+SKILLS
+- React
+- TypeScript
+- Next.js
+- Tailwind CSS
+- UI/UX Implementation
+
+CONTACT
+Email: your.email@example.com
+Location: India

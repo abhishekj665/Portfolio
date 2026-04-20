@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+.bg-small {
+  background-image:
+    linear-gradient(rgba(8, 15, 35, 0.62), rgba(8, 15, 35, 0.62)),
+    url("https://pro2-bar-s3-cdn-cf.myportfolio.com/833b2af5f7b30c156a078b140f2ee9ad/be42e70f-77c7-4717-a83d-d23b2591cbe4_rw_1920.jpg?h=011b934eb3c7d998f9c991d012c94fdf");
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px 0 rgba(31, 38, 135, 0.34);
+}
+
+.section-heading-gradient {
+  background: linear-gradient(90deg, #22d3ee, #4f46e5, #14b8a6, #22d3ee);
+  background-size: 260% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: headingFlow 7s linear infinite;
+}
+
+.reveal-motion {
+  animation: revealUp 0.8s ease both;
+}
+
+.slow-float {
+  animation: floatY 5s ease-in-out infinite;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #097030d0;
+}
+
+::selection {
+  color: white;
+  background: #097030d0;
+}
+
+::-webkit-scrollbar {
+  background-color: #f1f1f1;
+  /* Change background color */
+  width: 8px;
+  /* Set width of scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #097030d0;
+  /* Change color of scrollbar thumb */
+  border-radius: 1px;
+  /* Make scrollbar thumb curved */
+}
+
+@keyframes headingFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 260% 50%;
+  }
+}
+
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatY {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
