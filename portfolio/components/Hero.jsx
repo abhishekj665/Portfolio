@@ -16,19 +16,14 @@ const Hero = () => {
 
   return (
     <main className="min-h-[calc(100svh-5.03rem)] md:flex-row flex flex-col justify-center items-center gap-4">
-      <section className="lg:max-w-lg p-4 max-lg:hidden">
-        <div className="rounded-2xl p-[4px] bg-[linear-gradient(135deg,#22d3ee,#4f46e5,#14b8a6)] shadow-2xl slow-float">
+      <section className="w-full lg:max-w-lg p-4 flex justify-center">
+        <div className="rounded-2xl p-[4px] bg-[linear-gradient(135deg,#22d3ee,#4f46e5,#14b8a6)] shadow-2xl">
           <Image
-            className="max-w-xl rounded-2xl"
             src={profile_data.profileImage}
             alt={profile_data.name}
-            priority={false}
-            height={360}
             width={360}
-            style={{
-              width: "360px",
-              height: "auto",
-            }}
+            height={360}
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto rounded-2xl"
           />
         </div>
       </section>
