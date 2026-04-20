@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <main className="min-h-[calc(100svh-5.03rem)] md:flex-row flex flex-col justify-center items-center gap-4">
-      <section className="w-full lg:max-w-lg p-4 flex justify-center">
+      <section className="w-32 sm:w-45 md:w-56 lg:w-72 xl:w-80 h-auto rounded-2xl">
         <div className="rounded-2xl p-[4px] bg-[linear-gradient(135deg,#22d3ee,#4f46e5,#14b8a6)] shadow-2xl">
           <Image
             src={profile_data.profileImage}

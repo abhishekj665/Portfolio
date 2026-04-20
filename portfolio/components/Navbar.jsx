@@ -4,7 +4,7 @@ import { profile_data } from "../project_data";
 
 const Navbar = () => {
   return (
-    <nav className="flex p-4 border-b border-gray-200 sticky top-0 bg-white backdrop-blur-sm z-50">
+    <nav className="flex p-4 border-b border-gray-200 sticky top-0 bg-white/70 backdrop-blur-sm z-50">
       <section className="w-2/3 md:w-1/2 p-2 text-xl md:text-2xl font-semibold text-black flex justify-start items-center uppercase">
         {profile_data.name}
       </section>

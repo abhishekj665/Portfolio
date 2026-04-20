@@ -2,9 +2,9 @@ export const profile_data = {
   name: "Abhishek Jevene",
   role: "Full Stack Developer",
   shortIntro:
-    "Software developer with strong backend focus, building scalable web applications and REST APIs using Node.js, Express.js, React.js, and modern DevOps workflows.",
+    "Software developer with strong backend focus, building scalable web application  and REST APIs Products using Node.js, Express.js, React.js, and modern DevOps workflows.",
   about:
-    "I am a full stack developer with high backend focus. I work on API architecture, database design, performance optimization, and production-ready systems while still delivering responsive frontend experiences.",
+    "I am a full stack developer with high backend focus. I work on System Architecture, database design, performance optimization, and production-ready systems while still delivering responsive frontend experiences.",
   email: "jeveneabhi665@gmail.com",
   phone: "+91 8815950172",
   location: "Bhopal, India",
@@ -99,7 +99,7 @@ export const project_data = [
     image: "ORVANE_DIGITALS.png",
     description:
       "Built a business-focused full stack application with backend-driven data workflows, reliable API integration, and responsive UI delivery for practical digital operations.",
-    badges: ["Full Stack", "Node.js", "Express.js", "React.js", "MongoDB"],
+    badges: ["Full Stack", "Node.js", "Express.js", "EJS", "MongoDB"],
     github: "https://github.com/abhishekj665/ORVANE",
     live: "https://orvane-seven.vercel.app/",
   },
