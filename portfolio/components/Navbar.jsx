@@ -42,7 +42,7 @@ const Navbar = () => {
           aria-label="Hire Me Button"
         >
           <FaBriefcase />
-          <span className="ml-1.5">Get In Touch</span>
+          <span className="ml-1.5">Get Me</span>
         </Link>
       </section>
     </nav>

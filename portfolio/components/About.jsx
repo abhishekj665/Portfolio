@@ -90,7 +90,7 @@ const About = () => {
                 rel="noreferrer"
                 aria-label="Goto my github profile"
               >
-                <PiGithubLogoFill className=" transform hover:-translate-y-1.5 w-12 h-12 rounded-xl duration-500 text-black hover:bg-black p-1.5 hover:text-white" />
+                <PiGithubLogoFill className=" bg-white transform hover:-translate-y-1.5 w-12 h-12 rounded-xl duration-500 text-black hover:bg-black p-1.5 hover:text-white" />
               </a>
               <a
                 href={profile_data.socials.x}
